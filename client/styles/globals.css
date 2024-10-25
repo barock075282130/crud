@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text_border {
+  @apply border border-gray-300 px-3 py-1 w-full
+}
+
+form > div > p {
+  @apply pl-2
+}
+
+form > div > input {
+  @apply mb-1
+}
